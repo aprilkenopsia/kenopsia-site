@@ -8,39 +8,54 @@ body {
     background-color: #1d1111;
 }
 
-nav {
-    font-family:'josefin sans', sans-serif;
-    font-size: 20px;
+a {
+    font-family: josefin sans, sans-serif;
+    color:aliceblue
 }
 
 @font-face {
     font-family: josefin-sans;
-    src: url('..assets\fonts\JosefinSans-MediumItalic.ttf') format('truetype');
-    font-weight: 500;
-    font-style: italic;
-    font-display: swap;
+    src: url('..\assets\fonts\JosefinSans-VariableFont_wght.ttf') format('truetype');
 }
 
-a {
-    color:aliceblue;
+.link {
+    color:#ddd;
+    text-decoration: none;
+    border-bottom: solid 2px #ddd;
+    padding-bottom: 2px;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.link:hover {
+    color:deeppink;
+    border-bottom:solid 2px deeppink;
+}
+
+.btn {
+    margin:10px;
+    border:none;
+    background: 0 0;
+    cursor:pointer
 }
 
 #navbar {
     padding:20px 0;
-    background-color: rgb(25, 12, 12);
+    background-color: rgb(25, 12, 12);  
     width: 100%;
     display:flex;
     justify-content: center;
 }
 
 #navbar .item {
-    font-weight: 700;
+    font-weight: 500;
     padding:10px 0;
     margin:0 30px;
 }
 
-h1 {
-    color:aliceblue
+#navbar .item.active {
+    color:deeppink;
+    border-bottom:solid 2px deeppink;
 }
 
 h1 {
