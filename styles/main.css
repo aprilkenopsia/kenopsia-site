@@ -5,7 +5,38 @@ html {
 }
 
 body {
-    background-image: url('https://cdn.discordapp.com/avatars/277451712317620225/e8c0747c7ed296356ee972d429700402.webp?size=96');
+    background-color: #1d1111;
+}
+
+nav {
+    font-family:'josefin sans', sans-serif;
+    font-size: 20px;
+}
+
+@font-face {
+    font-family: josefin-sans;
+    src: url('..assets\fonts\JosefinSans-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+a {
+    color:aliceblue;
+}
+
+#navbar {
+    padding:20px 0;
+    background-color: rgb(25, 12, 12);
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+
+#navbar .item {
+    font-weight: 700;
+    padding:10px 0;
+    margin:0 30px;
 }
 
 h1 {
