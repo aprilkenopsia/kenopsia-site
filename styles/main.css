@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    margin:0;
+    margin: 0;
     background-color: #35242C;
     font-family: josefin sans, sans-serif;
     color: aliceblue
@@ -21,7 +21,7 @@ body {
 }
 
 .intro .avatar {
-    margin-bottom:10px;
+    margin-bottom: 10px;
     border-radius: 10%;
 }
 
