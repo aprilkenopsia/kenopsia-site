@@ -4,25 +4,37 @@ html {
     /* 1 */
     -webkit-text-size-adjust: 100%;
     /* 2 */
-}
-
-body {
-    margin: 0;
-    background-color: #35242C;
     font-family: josefin sans, sans-serif;
     color: aliceblue
 }
 
-.intro {
-    margin-left: auto;
-    margin-right: auto;
+body {
+    line-height: 1.8em;
+    margin: 0;
+    background-color: #35242C;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1000;
+    display: flex;
+}
+
+.content .intro {
     width: 40em;
-    padding: 4em;
+    padding: 1em;
 }
 
 .intro .avatar {
     margin-bottom: 10px;
     border-radius: 10%;
+    width: 20em;
+    transform: translateX(-20%);
+    justify-content: center;
+    display: flex;
 }
 
 img {
@@ -37,7 +49,7 @@ img {
 .link {
     color: #ddd;
     text-decoration: none;
-    border-bottom: solid 2px #ddd;
+    border-bottom: dotted 2px #ddd;
     padding-bottom: 2px;
     font-size: 1em;
     font-weight: 500;
@@ -55,6 +67,8 @@ img {
     cursor: pointer
 }
 
+
+
 #navbar {
     padding: 20px 0;
     background-color: #211D1F;
@@ -64,9 +78,11 @@ img {
 }
 
 #navbar .item {
-    font-weight: 500;
+    font-weight: 700;
+    text-transform: lowercase;
     padding: 10px 0;
     margin: 0 30px;
+    font-size: 1.2em;
 }
 
 #navbar .item.active {
@@ -75,5 +91,10 @@ img {
 }
 
 h2 {
+    color: aliceblue
+}
+
+p {
+    margin: 20px 0;
     color: aliceblue
 }
