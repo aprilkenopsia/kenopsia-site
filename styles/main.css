@@ -19,20 +19,21 @@ body {
 .content {
     justify-content: center;
     display: flex;
+    align-items: start;
 }
 
 .content .intro {
     width: 40em;
-    padding: 1em;
+    padding: 3em;
+    display: flex;
+    align-items: start;
 }
 
 .intro .avatar {
     margin-bottom: 10px;
     border-radius: 10%;
     width: 20em;
-    transform: translateX(-110%);
-    justify-content: center;
-    display: flex;
+    transform: translateX(-10%);
 }
 
 img {
