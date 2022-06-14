@@ -20,13 +20,12 @@ body {
     justify-content: center;
     display: flex;
     align-items: start;
+    padding: 2em;
 }
 
 .content .intro {
     width: 40em;
-    padding: 3em;
-    display: flex;
-    align-items: start;
+    display: contents;
 }
 
 .intro .avatar {
@@ -89,12 +88,14 @@ img {
     border-bottom: solid 2px deeppink;
 }
 
-h2 {
-    margin: 0;
-    color: aliceblue
+footer {
+    text-align: center;
+    padding-top: 200px;
+    font-size: small;
+    color: rgba(221, 221, 221, 0.735);
 }
 
-p {
-    margin: 20px 0;
+h2 {
+    margin: 0 20;
     color: aliceblue
 }
