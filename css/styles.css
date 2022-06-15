@@ -53,6 +53,11 @@ div#gallery picture img{
     transform: scale(2);
 }
 
+.socials {
+    font-size: large;
+    font-weight: 700;
+}
+
 .intro .avatar {
     margin-bottom: 10px;
     border-radius: 10%;
