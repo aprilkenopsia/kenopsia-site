@@ -2,7 +2,7 @@
 html {
     line-height: 1.15;
     /* 1 */
-    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
     /* 2 */
     font-family: josefin sans, sans-serif;
     color: aliceblue
@@ -28,14 +28,36 @@ body {
     display: contents;
 }
 
+div#gallery {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+div#gallery picture{
+    display: block;
+    justify-content: center;
+    column-count: 4;
+}
+div#gallery picture img{
+    max-width: 100%;
+    height: auto;
+    border:rgba(221, 221, 221, 0.735) solid 1px;
+}
+
+.img {
+    height: auto;
+}
+
+.img:hover {
+    transform: scale(2);
+}
+
 .intro .avatar {
     margin-bottom: 10px;
     border-radius: 10%;
     width: 20em;
     transform: translateX(-10%);
-}
-
-img {
     border-style: outset;
 }
 
@@ -64,8 +86,6 @@ img {
     background: 0 0;
     cursor: pointer
 }
-
-
 
 #navbar {
     padding: 20px 0;
