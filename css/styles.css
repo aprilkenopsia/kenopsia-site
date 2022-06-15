@@ -46,11 +46,12 @@ div#gallery picture img{
 }
 
 .img {
+    transition: transform, .2s;
     height: auto;
 }
 
 .img:hover {
-    transform: scale(2);
+    transform: scale(1.5);
 }
 
 .socials {
